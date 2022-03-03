@@ -18,5 +18,3 @@ mongoose
     console.error("Error connecting to mongo: ", err);
   });
 
-  // Mongodb
-  // MONGGO_URI=mongodb+srv://Valutar:El4Y4x9RMXwFmoC9@cluster0.vxplz.mongodb.net/twitter
