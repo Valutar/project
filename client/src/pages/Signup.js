@@ -58,7 +58,7 @@ export default function Signup(){
             />
             <label htmlFor='password'>Password: </label>
             <input 
-                type='text'
+                type='password'
                 value={password}
                 onChange={handlePassword}
             />

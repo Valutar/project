@@ -6,11 +6,13 @@ import ProjectDetails from './pages/ProjectDetails'
 import EditProject from './pages/EditProject';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
+import Navbar from './components/Navbar'
 
 
 function App() {
   return (
     <div className="App">
+    <Navbar />
       <Routes>
         <Route path= '/' element={<Home />} />
         <Route path= '/projects' element={<ProjectList />} />
